@@ -1,0 +1,324 @@
+body{ font-family: lato;
+      font-size: 20px;
+      background-color: white;
+    }
+ #header { height: 350px;
+          background-image: url('images/ecosystem.jpg');
+          background-repeat: no-repeat; 
+          background-size: 100% 100%;
+          margin-top:  10px;
+        }
+#ecosystem{ padding: 20px;
+            margin: 15px;
+          }
+button{ padding: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+        background-color: brown;
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px 3px gray;
+        font-size: 15px;
+      }
+button:hover{
+  background-color: green;
+}
+aside{ height: 100px;
+       float: right;
+      margin-right: 150px;
+    }
+.dropbtn{ background-color: brown;
+          color: black;
+          width: 150px;
+          padding: 10px;
+          font-size: 15px;
+          border-radius: 5px;
+          box-shadow: 3px 3px 5px 3px gray;
+        }
+.dropdown-content { display: none;
+                    position: absolute;
+                    background-color: white;
+                    border-radius: 5px;
+                    min-width: 100px;
+                    box-shadow: 3px 3px 5px 3px gray;
+                    z-index: 1; 
+                  }
+.dropdown-content a { color:black;
+                      padding: 10px;
+                      text-decoration: none;
+                      display: block;
+                    }
+.dropdown-content a:hover { background-color: green;
+                            color: white;
+                          }
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn { background-color: green;
+                           color: white;
+                          }
+#content{ margin: auto;
+          max-width: 1200px;
+        }
+section{ display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin: 15px;
+        }
+section #ecosystem{ width: 300px;
+                    height: 300px;
+                    background-image: url('images/ecosystem.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    box-shadow:gray 20px 20px 10px ;
+                    margin: 15px;
+                    transition : width 0.2s;
+                    transition-timing-function: linear;
+                  }
+section #ecosystem:hover {width: 400px;}
+section #air{ width: 300px;
+              height: 300px;
+              background-image: url('images/air.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              box-shadow:gray 20px 20px 10px;
+              margin: 15px; 
+              transition : width 0.2s;
+              transition-timing-function: linear;
+            }
+section #air:hover {width: 400px;}
+section #plant{ width: 300px;
+                height: 300px;
+                background-image: url('images/plant.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-shadow:gray 20px 20px 10px;
+                margin: 15px;
+                transition : width 0.2s;
+                transition-timing-function: linear;
+              }
+section #plant:hover {width: 400px;}
+section #water{ width: 300px;
+                height: 300px;
+                background-image: url('images/water.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-shadow:gray 20px 20px 10px;
+                margin: 15px; 
+                transition : width 0.2s;
+                transition-timing-function: linear;
+              }
+section #water:hover {width: 400px;}
+section #animal{ width: 300px;
+                 height: 300px;
+                 background-image: url('images/animal.jpg');
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 box-shadow:gray 20px 20px 10px;
+                 margin: 15px;
+                 transition : width 0.2s;
+                 transition-timing-function: linear;
+                }
+section #animal:hover {width: 400px;}
+section #soil{ width: 300px;
+               height: 300px;
+               background-image: url('images/soil.jpg');
+               background-repeat: no-repeat;
+               background-size: cover;
+               box-shadow:gray 20px 20px 10px;
+               margin: 15px;
+               transition : width 0.2s;
+               transition-timing-function: linear;
+              }
+section #soil:hover {width: 400px;}
+h1{ color: darkgreen;
+    text-align: center;
+    font-weight: bolder;}
+h2{ font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    margin: 15px;}
+.link{ background-color: white;
+       border-radius: 5px;
+       color: green;
+       padding: 5px 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 100px 100px;
+         }
+.link:hover{ color: white;
+             background-color: green;
+            }
+ #menu{ height: 50px;
+        margin-right: 50px;
+        margin: 10px;
+          }
+#menu ul li a{ float: right;
+               text-decoration: none;
+               border-radius: 5px;
+               color: green;
+               margin: 50px;
+              }
+#menu ul li a:hover{ color: white ;
+                     background-color: green;
+                    } 
+ #menu ul li { text-decoration-style: none;
+               display: inline; 
+            }
+ .container{ margin: auto;
+             max-width: 900px;
+          }
+#mainText { display: flex;
+          }
+#one{ margin: 10px;
+      padding: 50px;
+      width: 850px;
+      background-color: rgb(40, 207, 40);
+      margin-top: 30px;
+      margin-left: -80px;
+      color: white;
+      box-shadow:gray 10px 10px 5px;
+}  
+#two{ margin: 10px;
+      padding: 50px;
+      width: 850px;
+      background-color: rgb(40, 207, 40);
+      margin-top: 30px;
+      margin-left: -80px;
+      color: white;
+      box-shadow:gray 10px 10px 5px;
+ } 
+ #mainText2 { display: flex;
+              flex-direction: row;
+            }  
+ #three{ margin: 10px;
+         padding: 20px;
+         width: 250px;
+         height: 300px;
+         background-color: rgb(40, 207, 40);
+         margin-top: 20px;
+         color: white;
+         box-shadow:gray 10px 10px 5px;
+       }        
+#four{ margin: 10px;
+       padding: 20px;
+       width: 400px;
+       height: 300px;
+       background-color: rgb(40, 207, 40);
+       margin-top: 20px;
+       color: white;
+       box-shadow:gray 10px 10px 5px;
+     }        
+#five{ margin: 10px;
+       padding: 50px;
+       width: 650px;
+       height: 200px;
+       background-color: rgb(40, 207, 40);  
+       margin-top: 20px;
+       color: white;
+       box-shadow:gray 10px 10px 5px;
+     }  
+#mainText3{ display: flex;} 
+#six{ margin: 10px;
+      padding-top: 50px;
+      padding: 20px;
+      width: 200px;
+      height: 400px;
+      background-color: rgb(40, 207, 40);
+      margin-top: 50px;
+      color: white;
+      box-shadow:gray 10px 10px 5px;
+      }
+#six2{ display:flex;
+       flex-direction: column;
+       width: 600px;
+       height: 500px;
+     }
+#seven{ margin: 20px;
+        padding: 20px;
+        width: 500px;
+        height: 170px;
+        background-color: rgb(40, 207, 40);
+        margin-top: 50px;
+        color: white;
+        box-shadow:gray 10px 10px 5px;
+      }
+#eight{ margin: 20px;
+        padding: 20px;
+        width: 500px;
+        height: 300px;
+        background-color: rgb(40, 207, 40);
+        margin-top: 10px;
+        color: white;
+        box-shadow:gray 10px 10px 5px;
+      } 
+#mainText4{ display: flex;} 
+#nine{ margin: 20px;
+        padding: 50px;
+        width: 250px;
+        height: 600px;
+        background-color: rgb(40, 207, 40);
+        margin-top: 10px;
+        color: white;
+        box-shadow:gray 10px 10px 5px;
+        }  
+#ten{ margin: 20px;
+        padding: 50px;
+        width: 250px;
+        height: 600px;
+        background-color: rgb(40, 207, 40);
+        margin-top: 10px;
+        color: white;
+        box-shadow:gray 10px 10px 5px;
+       }
+#mainText5{ margin: 20px;
+           padding: 50px;
+           width: 700px;
+           height: auto;
+           background-color: rgb(40, 207, 40);
+           margin-top: 10px;
+           color: white;
+           box-shadow:gray 10px 10px 5px;
+}            
+#textAbout{ width: 700px;
+            height: 150px;
+            background-color: lightgrey;
+            padding: 20px;
+            margin: 50px;
+            margin-left: 120px;
+            display: none;
+            border-bottom-right-radius: 50px;
+            border-top-right-radius: 50px;
+            } 
+footer{ text-align: center;
+        margin: 30px;
+        margin-top: 100px;
+        font-size: 90%;}
+#copyRight{font-size: 80%;}
+
+
+@media only screen and (max-width: 600px) {
+        
+  #textAbout{
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+  }
+  #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+                width: auto;
+                height: auto;
+                margin-left: 0px;
+               
+    
+  }
+  #mainText5{
+          width: auto;
+  }
+  
+  
+  
+  
+  
+}
